@@ -1,0 +1,6 @@
+
+RewriteEngine On
+RewriteBase /
+
+# Redirect to site
+RewriteRule (.*) /public/$1 [L]
